@@ -43,23 +43,19 @@ Here's the folder structure that gets created by `cookiecutter-datascience-simpl
 
 	├── homework_3	<- Your notebooks and scripts will live in the main project folder
 		│   .gitignore					<- Common file types for git to ignore
-		│   README.md					<- The top-level README for developers (you) using this project
-		│   main_homework_file.ipynb			<- A Jupyter notebook where the work is done.
+		│   README.md					<- This README file
+		│   main_homework_file.ipynb			<- Jupyter notebook where the work is done.
 		│
-		├───data						<- Final and intermediate data
-		│   └───raw						<- The original, immutable data dump
+		├───data						<- Includes .png images of our models
 		│
-		├───docs
-		│       notes.md				<- Simple markdown template for project notes
-		│
-		└───output
-				readme.md				<- Guidance for using this folder
+		└───output								<- Includes the logs as .csv files
+
 
 
 Documentation
 --------------
 
-In this homework assignment, I will create a simple Airport simulation model using DES. 
+In this homework assignment, I will create a simple Airport simulation model using DES with Simpy. While three models are shown in the "main_homework_file.ipynb" notebook, the last model is the most complex out of the three.  
 
 
 
