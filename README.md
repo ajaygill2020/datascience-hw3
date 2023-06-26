@@ -55,7 +55,9 @@ Here's the folder structure that gets created by `cookiecutter-datascience-simpl
 Documentation
 --------------
 
-In this homework assignment, I will create a simple Airport simulation model using DES with Simpy. While three models are shown in the "main_homework_file.ipynb" notebook, the last model is the most complex out of the three.  
+In this homework assignment, I will create a simple Airport simulation model using DES with Simpy. While three models are shown in the "main_homework_file.ipynb" notebook, the last model is the most complex out of the three. 
 
-
-
+Going through the 'main_homework_file' notebook: 
+* You can divide this notebook into three SimPy models. It starts with the simplest one of entering and exiting our airport simulation with a fixed interarrival time. 
+* The second SimPy model add two delay processes and how those impact the flow of our simulation. 
+* Lastly, the third SimPy model tries to mimic a simplified, but real example of going to an airport and boarding a flight with made-up data. Feel free to follow along my comments to build your own SimPy model for your own discrete event simulation.
